@@ -1,0 +1,26 @@
+{
+  "name": "tp7",
+  "version": "1.0.0",
+  "description": "Correection tp7",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "node node_modules/mocha/bin/mocha test/**/*.js --reporter spec"
+  },
+  "author": "Farhat Maher",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "express-validation": "^3.0.8",
+    "express-validator": "^6.12.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
+}
